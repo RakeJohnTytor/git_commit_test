@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 void hidden_function() {
-    system("echo 'Hacked!' > /tmp/hack.txt");  // 恶意操作：创建文件
+    system("echo 'Hacked!' > /tmp/hack.txt");  // malicious operation, creating a file
 }
 
 int main() {
     printf("This is a normal program.\n");
     
-    // 伪装的后门调用
+    // misguised call
     hidden_function();
 
     return 0;
