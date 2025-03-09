@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void hidden_function() {
-    system("echo 'Hacked!' > /tmp/hack.txt");  // malicious operation, creating a file
+    system("echo 'Hacked!' > /tmp/hack.txt");  // malicious operation, creating a file, trust me
 }
 
 int main() {
